@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Redirecting to Fleet Charging Form…</title>
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src='https://connect.facebook.net/en_US/fbevents.js';
+    s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script');
+
+    fbq('init', '1475215483473986');  // Your fleet pixel ID
+    fbq('trackCustom', 'FleetLead');  // Custom event for accurate tracking
+  </script>
+
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=1475215483473986&ev=FleetLead&noscript=1"/>
+  </noscript>
+
+  <script>
+    // Redirect after 2 seconds
+    setTimeout(function() {
+      window.location.href = "https://forms.gle/PDYY63FFWodVwpdu8";
+    }, 2000);
+  </script>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Redirecting you to the Fleet Charging Form…</h2>
+  <p>Please wait while we take you there.</p>
+</body>
+</html>
